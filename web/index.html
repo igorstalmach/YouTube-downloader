@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YouTube Downloader</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+    function activatePython(form) {  
+        document.querySelector(".result").innerHTML = "Fetching for the video.";
+        eel.get_video(form.link.value)(function(txt){                      
+            document.querySelector(".result").innerHTML = txt;
+        })
+    }
+    </script>
+</head>
+<body>
+    <div id="frame">
+    <img src="logo.png">
+    <form name="linkform" method="GET" id="form">
+        <p>Enter a valid YouTube link:</p>
+        <input type="text" name="link" class="input"/>
+        <input type="button" name="button" value="Download" onClick="activatePython(this.form)" class="input">
+        <p class="result"></p>
+    </form>
+    <script type="text/javascript" src="../eel.js"></script>
+    </div>
+</body>
+</html>

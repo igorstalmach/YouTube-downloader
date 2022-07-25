@@ -1,0 +1,24 @@
+body {
+    background-color: white;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    color: red;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    /* margin-top: 15px; */
+}
+
+#frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form {
+    padding: 20px;
+}
