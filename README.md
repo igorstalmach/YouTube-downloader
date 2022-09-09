@@ -1,6 +1,8 @@
 
 # A simple YouTube video downloader using Python.
 
+![GUI screenshot](images/screenshot.png)
+
 - When supplied with a link, program will find and download a progressive stream of the video.
 	- "Progressive stream" refers to a stream that contains the audio and video in a single file. Due to YouTube using different techniques for high resolution videos, highest possible downloaded video quality is 720p. More about this at [PyTube documentation](https://pytube.io/en/latest/user/streams.html)
 - Video fetching and downloading has been implemented with [PyTube v12.1.0](https://pytube.io/en/latest/) Python library.
