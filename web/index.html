@@ -14,15 +14,19 @@
     </script>
 </head>
 <body>
-    <div id="frame">
-    <img src="logo.png">
-    <form name="linkform" method="GET" id="form">
-        <p>Enter a valid YouTube link:</p>
-        <input type="text" name="link" class="input"/>
-        <input type="button" name="button" value="Download" onClick="activatePython(this.form)" class="input">
-        <p class="result"></p>
-    </form>
-    <script type="text/javascript" src="../eel.js"></script>
+    <div class="frame">
+        <div class="img-container">
+            <img src="logo.png">
+        </div>
+        <div class="container">
+            <form name="linkform" method="GET" id="form">
+                <p>Enter a valid YouTube link:</p>
+                <input type="text" name="link" class="input"/>
+                <input type="button" name="button" value="Download" onClick="activatePython(this.form)" class="input">
+                <p class="result"></p>
+            </form>
+            <script type="text/javascript" src="../eel.js"></script>
+        </div>
     </div>
 </body>
 </html>
