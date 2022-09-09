@@ -10,4 +10,4 @@
 - Graphical user interface has been written with HTML & CSS.
   - [eel](https://github.com/ChrisKnott/Eel) library has been used to connect JavaScript with Python, a library based on JavaScript's [Electron framework](https://www.electronjs.org).
   - similarly to Electron apps, it requires a Chromium browser to properly display a window.
-    - used code is stored within the `web` folder.
+    - code is stored within the `web` folder.
